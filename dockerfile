@@ -11,3 +11,4 @@ RUN apt-get update \
  RUN chmod 777 ./macaddress/getCompanyName.sh
  ENTRYPOINT ["macaddress/getCompanyName.sh"]
  CMD []
+
