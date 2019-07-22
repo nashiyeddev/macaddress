@@ -7,7 +7,7 @@ RUN apt-get update \
 		git \
 		ca-certificates \ 
 		openssl
- RUN git clone https://github.com/poojagit912/macaddress.git
+ RUN git clone https://github.com/nashiyeddev/macaddress.git
  RUN chmod 777 ./macaddress/getCompanyName.sh
  ENTRYPOINT ["macaddress/getCompanyName.sh"]
  CMD []
